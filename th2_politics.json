@@ -1,0 +1,32 @@
+[
+  {
+    "subCategory": "policy",
+    "proportion": 0.3091,
+    "trendImage": "img/politics/Politics_Policy.svg"
+  },
+  {
+    "subCategory": "foreign politics",
+    "proportion": 0.1727,
+    "trendImage": "img/politics/Politics_Foreign Politics.svg"
+  },
+  {
+    "subCategory": "government",
+    "proportion": 0.0727,
+    "trendImage": "img/politics/Politics_Government.svg"
+  },
+  {
+    "subCategory": "warfare",
+    "proportion": 0.0727,
+    "trendImage": "img/politics/Politics_Warfare.svg"
+  },
+  {
+    "subCategory": "international politics",
+    "proportion": 0.0727,
+    "trendImage": "img/politics/Politics_International Politics.svg"
+  },
+  {
+    "subCategory": "corruption",
+    "proportion": 0.0636,
+    "trendImage": "img/politics/Politics_Corruption.svg"
+  }
+]

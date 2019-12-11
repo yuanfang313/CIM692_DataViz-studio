@@ -1,0 +1,32 @@
+[
+  {
+    "subCategory": "archaeology",
+    "proportion": 0.2195,
+    "trendImage": "img/science/Science_Archaeology.svg"
+  },
+  {
+    "subCategory": "computer science",
+    "proportion": 0.1463,
+    "trendImage": "img/science/Science_Computer Science.svg"
+  },
+  {
+    "subCategory": "medical technology",
+    "proportion": 0.122,
+    "trendImage": "img/science/Science_Medical Technology.svg"
+  },
+  {
+    "subCategory": "space technology",
+    "proportion": 0.0976,
+    "trendImage": "img/science/Science_Space Technology.svg"
+  },
+  {
+    "subCategory": "bioscience & biotechnology",
+    "proportion": 0.0732,
+    "trendImage": "img/science/Science_Bio.svg"
+  },
+  {
+    "subCategory": "psychology",
+    "proportion": 0.0732,
+    "trendImage": "img/science/Science_Psychology.svg"
+  }
+]

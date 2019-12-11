@@ -1,0 +1,32 @@
+[
+  {
+    "subCategory": "celebrities",
+    "proportion": 0.2114,
+    "trendImage": "img/figure/figure_Celebrities.svg"
+  },
+  {
+    "subCategory": "politicians",
+    "proportion": 0.1707,
+    "trendImage": "img/figure/figure_Politicians.svg"
+  },
+  {
+    "subCategory": "writers",
+    "proportion": 0.1301,
+    "trendImage": "img/figure/figure_Writers.svg"
+  },
+  {
+    "subCategory": "enterpreneurs & businessmen",
+    "proportion": 0.0976,
+    "trendImage": "img/figure/figure_EB.svg"
+  },
+  {
+    "subCategory": "artists",
+    "proportion": 0.0569,
+    "trendImage": "img/figure/figure_Artists.svg"
+  },
+  {
+    "subCategory": "movie directors",
+    "proportion": 0.0569,
+    "trendImage": "img/figure/figure_Movie Directors.svg"
+  }
+]

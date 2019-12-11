@@ -1,0 +1,32 @@
+[
+  {
+    "subCategory": "crime issues",
+    "proportion": 0.2381,
+    "trendImage": "img/social issues/Social Issues_Crime Issues.svg"
+  },
+  {
+    "subCategory": "public health & health services",
+    "proportion": 0.2095,
+    "trendImage": "img/social issues/Social Issues_PH & HS.svg"
+  },
+  {
+    "subCategory": "public safety",
+    "proportion": 0.2,
+    "trendImage": "img/social issues/Social Issues_PS.svg"
+  },
+  {
+    "subCategory": "environmental issue & animal protection",
+    "proportion": 0.181,
+    "trendImage": "img/social issues/Social Issues_EI & AP.svg"
+  },
+  {
+    "subCategory": "urbanlization",
+    "proportion": 0.0476,
+    "trendImage": "img/social issues/Social Issues_U.svg"
+  },
+  {
+    "subCategory": "issues in education system",
+    "proportion": 0.0286,
+    "trendImage": "img/social issues/Social Issues_ES.svg"
+  }
+]
