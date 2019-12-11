@@ -1,7 +1,7 @@
 /*jshint esversion: 6 */
 async function drawBarChart() {
   //1_Access data
-  const dataset = await d3.json("json/th2_science and technology.json")
+  const dataset = await d3.json("../json/th2_science and technology.json")
   const xAccessor = d => d.proportion
   const nameAccessor = d => d.subCategory
   const imgAccessor = d =>d.trendImage
