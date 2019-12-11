@@ -1,0 +1,33 @@
+[
+  {
+    "subCategory": "culture of daily life",
+    "proportion": 0.1865,
+    "trendImage": "img/culture/Culture_Culture of Daily Life.svg"
+  },
+  {
+    "subCategory": "mass culture",
+    "proportion": 0.1429,
+    "trendImage": "img/culture/Culture_Mass Culture.svg"
+  },
+  {
+    "subCategory": "foreign culture",
+    "proportion": 0.1429,
+    "trendImage": "img/culture/Culture_Foreign Culture.svg"
+  },
+  {
+    "subCategory": "regional culture",
+    "proportion": 0.1151,
+    "trendImage": "img/culture/Culture_Regional Culture.svg"
+  },
+  {
+    "subCategory": "Chinese traditional culture",
+    "proportion": 0.0913,
+    "trendImage": "img/culture/Culture_Chinese Traditional Culture.svg"
+  },
+  {
+    "subCategory": "Other spectaculars and media",
+    "proportion": 0.0675,
+    "trendImage": "img/culture/Culture_Other Spectaculars and Media.svg"
+  }
+
+]

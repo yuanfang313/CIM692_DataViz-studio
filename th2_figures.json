@@ -1,0 +1,30 @@
+[
+  {
+    "subCategory": "athletes",
+    "proportion": 0.1429
+  },
+  {
+    "subCategory": "enterpreneurs & businessmen",
+    "proportion": 0.1143
+  },
+  {
+    "subCategory": "celebrities",
+    "proportion": 0.0857
+  },
+  {
+    "subCategory": "patients",
+    "proportion": 0.0857
+  },
+  {
+    "subCategory": "journalists",
+    "proportion": 0.0571
+  },
+  {
+    "subCategory": "Nobel prize winners",
+    "proportion": 0.0571
+  },
+  {
+    "subCategory": "writers",
+    "proportion": 0.0571
+  }
+]

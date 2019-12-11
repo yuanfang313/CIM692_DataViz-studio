@@ -1,0 +1,32 @@
+[
+  {
+    "subCategory": "industries and sectors",
+    "proportion": 0.2899,
+    "trendImage": "img/economy/Economy_Industries and Sectors.svg"
+  },
+  {
+    "subCategory": "cultural market and media",
+    "proportion": 0.1449,
+    "trendImage": "img/economy/Economy_Culture Market and Media.svg"
+  },
+  {
+    "subCategory": "stock market, investment and financial crisis",
+    "proportion": 0.1449,
+    "trendImage": "img/economy/Economy_Stock Market, Investment & Financial Crisis.svg"
+  },
+  {
+    "subCategory": "economic system and performance",
+    "proportion": 0.0676,
+    "trendImage": "img/economy/Economy_Economic System and Performance.svg"
+  },
+  {
+    "subCategory": "personal financial",
+    "proportion": 0.0435,
+    "trendImage": "img/economy/Economy_Personal Financial.svg"
+  },
+  {
+    "subCategory": "regional economy",
+    "proportion": 0.0386,
+    "trendImage": "img/economy/Economy_Regional Economy.svg"
+  }
+]
