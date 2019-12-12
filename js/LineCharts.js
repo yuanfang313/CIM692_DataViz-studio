@@ -2,7 +2,7 @@
 async function drawLineChart() {
 
   //1_Access data
-  const dataset = await d3.json("worldoncover/th1.json")
+  const dataset = await d3.json("https://yuanfang313.github.io/worldoncover/th1.json")
   //console.table(dataset[7])
   //console.log(yAccessor(dataset[0]))
 const drawLineCharts = metric => {
