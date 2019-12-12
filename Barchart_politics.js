@@ -1,7 +1,7 @@
 /*jshint esversion: 6 */
 async function drawBarChart() {
   //1_Access data
-  const dataset = await d3.json("../th2_economy.json")
+  const dataset = await d3.json("th2_politics.json")
   const xAccessor = d => d.proportion
   const nameAccessor = d => d.subCategory
   const imgAccessor = d =>d.trendImage
@@ -13,18 +13,18 @@ async function drawBarChart() {
     margin:{
       top: 50,
       bottom: 0,
-      left: 280,
+      left: 250,
       right: 0,
     }
   }
   dimensions.boundedWidth = dimensions.width - dimensions.margin.left - dimensions.margin.right
   dimensions.boundedHeight = dimensions.height - dimensions.margin.top - dimensions.margin.bottom
   //3_Draw canvas
-  const wrapper3 = d3.select("#wrapper3")
+  const wrapper4 = d3.select("#wrapper4")
       .append("svg")
       .attr("width", dimensions.width)
       .attr("height", dimensions.height)
-  const bounds = wrapper3.append("g")
+  const bounds = wrapper4.append("g")
       .style("transform", `translate(${
             dimensions.margin.left
           }px, ${
@@ -54,7 +54,7 @@ async function drawBarChart() {
       .attr("y", (d, i) => i * dimensions.boundedHeight/6)
       .attr("width", d => xScale(xAccessor(d)))
       .attr("height", dimensions.boundedHeight/6 - 7)
-      .attr("fill", "#8aacff")
+      .attr("fill", "#b5e0ba")
 
 
   //Add bar Labels
@@ -82,7 +82,7 @@ async function drawBarChart() {
           .attr("x", 0)
           .attr("y", -25)
           .text("Hover over each bar for more information.")
-          .attr("fill", "#5e8dff")
+          .attr("fill", "#5cbf67")
           .style("font-size", "14px")
           .style("font-family", "Alatsi, sans-serif")
           .style("text-anchor", "middle")
@@ -91,7 +91,7 @@ async function drawBarChart() {
 barGroups.select("rect")
   .on("mouseenter", onMouseEnter)
   .on("mouseleave", onMouseLeave)
-const trendImage = d3.select("#trendImage3")
+const trendImage = d3.select("#trendImage4")
 function onMouseEnter(datum) {
 trendImage.attr("src", imgAccessor(datum))
 }

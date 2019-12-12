@@ -1,7 +1,7 @@
 /*jshint esversion: 6 */
 async function drawBarChart() {
   //1_Access data
-  const dataset = await d3.json("../th2_politics.json")
+  const dataset = await d3.json("th2_culture.json")
   const xAccessor = d => d.proportion
   const nameAccessor = d => d.subCategory
   const imgAccessor = d =>d.trendImage
@@ -20,11 +20,11 @@ async function drawBarChart() {
   dimensions.boundedWidth = dimensions.width - dimensions.margin.left - dimensions.margin.right
   dimensions.boundedHeight = dimensions.height - dimensions.margin.top - dimensions.margin.bottom
   //3_Draw canvas
-  const wrapper4 = d3.select("#wrapper4")
+  const wrapper2 = d3.select("#wrapper2")
       .append("svg")
       .attr("width", dimensions.width)
       .attr("height", dimensions.height)
-  const bounds = wrapper4.append("g")
+  const bounds = wrapper2.append("g")
       .style("transform", `translate(${
             dimensions.margin.left
           }px, ${
@@ -54,13 +54,13 @@ async function drawBarChart() {
       .attr("y", (d, i) => i * dimensions.boundedHeight/6)
       .attr("width", d => xScale(xAccessor(d)))
       .attr("height", dimensions.boundedHeight/6 - 7)
-      .attr("fill", "#b5e0ba")
+      .attr("fill", "#ffc194")
 
 
   //Add bar Labels
   const formatPercent = d3.format(".1%")
   const barLabels = barGroups.append("text")
-      .attr("x", d => xScale(xAccessor(d)) + 3)
+      .attr("x", d => xScale(xAccessor(d))+ 3)
       .attr("y", (d, i) => i * dimensions.boundedHeight/6 + (dimensions.boundedHeight/6 + 7)/2)
       .text(d => formatPercent(xAccessor(d)))
       .attr("fill", "black")
@@ -68,30 +68,30 @@ async function drawBarChart() {
       .style("font-family", "Merriweather, serif")
       .style("text-transform", "capitalize")
   //Add xAxis Lables
-  const yAxisLabels = barGroups.append("text")
-      .attr("x", d => -10)
-      .attr("y", (d, i) => i * dimensions.boundedHeight/6 + (dimensions.boundedHeight/6 + 7)/2)
-      .text(nameAccessor)
-      .attr("fill", "black")
-      .style("font-size", "14px")
-      .style("font-family", "Titillium Web, sans-serif")
-      .style("text-anchor", "end")
-      .style("text-transform", "capitalize")
-      //hover over label
-        const xAxisLabels = bounds.append("text")
-          .attr("x", 0)
-          .attr("y", -25)
-          .text("Hover over each bar for more information.")
-          .attr("fill", "#5cbf67")
-          .style("font-size", "14px")
-          .style("font-family", "Alatsi, sans-serif")
-          .style("text-anchor", "middle")
-          .style("text-transform", "capitalize")
+const yAxisLabels = barGroups.append("text")
+    .attr("x", d => -10)
+    .attr("y", (d, i) => i * dimensions.boundedHeight/6 + (dimensions.boundedHeight/6 + 7)/2)
+    .text(nameAccessor)
+    .attr("fill", "black")
+    .style("font-size", "14px")
+    .style("font-family", "Titillium Web, sans-serif")
+    .style("text-anchor", "end")
+    .style("text-transform", "capitalize")
+    //hover over label
+      const xAxisLabels = bounds.append("text")
+        .attr("x", 0)
+        .attr("y", -25)
+        .text("Hover over each bar for more information.")
+        .attr("fill", "#e68b49")
+        .style("font-size", "14px")
+        .style("font-family", "Alatsi, sans-serif")
+        .style("text-anchor", "middle")
+        .style("text-transform", "capitalize")
 //Setup interaction
 barGroups.select("rect")
   .on("mouseenter", onMouseEnter)
   .on("mouseleave", onMouseLeave)
-const trendImage = d3.select("#trendImage4")
+const trendImage = d3.select("#trendImage2")
 function onMouseEnter(datum) {
 trendImage.attr("src", imgAccessor(datum))
 }
